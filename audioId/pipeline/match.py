@@ -24,7 +24,10 @@ def get_delta_t_matching(x, dimensions_weight = np.array([1,0])):
 def get_relationship_score(matching, k=5):
     x, y = matching[0], matching[1]
     smoothed = median_filter(y, mode="nearest", size=(k,))
-    return pearsonr(x, smoothed)
+    return pearsonr(x, smoothed).statistic
+
+def get_error_from_matching(matching, k=5):
+    return 1.-get_relationship_score(matching, k=k)
 
 
 # ----- Utils -----
