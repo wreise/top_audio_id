@@ -1,5 +1,5 @@
 # README
-Code for audio processing and identification using persistent homology. 
+This repository contains the code for the topological audio fingerprint and identification methods from the paper "Topological fingerprints for audio identification" (Reise*, Fernandez*, Dominguez, Harrington and Beguerisse-Diaz, 2023).
 
 ## Installation and use
 The package and the library are in python. The following should get you started to create an environment, install the package and all the dependencies with conda.
