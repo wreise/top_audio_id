@@ -1,10 +1,10 @@
 # README
-This repository contains the code for the topological audio fingerprint and identification methods from the paper "Topological fingerprints for audio identification" (Reise*, Fernandez*, Dominguez, Harrington and Beguerisse-Diaz, 2023).
+This repository contains the code for the topological audio fingerprint and identification methods from the paper "Topological fingerprints for audio identification" (Reise\*, Fernandez\*, Dominguez, Harrington and Beguerisse-Diaz, 2023).
 
 ## Installation and use
 The package and the library are in python. The following should get you started to create an environment, install the package and all the dependencies with conda.
 ```
-conda create -n audioId python=3.8
+conda create -n audioId python=3.9
 conda activate audioId
 python -m pip install -e .
 ```
