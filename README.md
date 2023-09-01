@@ -1,4 +1,4 @@
-# audio_id_tda
+# README
 Code for audio processing and identification using persistent homology. 
 
 ## Installation and use
