@@ -1,0 +1,3 @@
+[submodule "audio-fingerprint-identifying-python"]
+	path = audio-fingerprint-identifying-python
+	url = git@github.com:wreise/audio-fingerprint-identifying-python.git

@@ -20,5 +20,7 @@ setup(
         "tqdm",
         "opencv-python",
         "sox",
+        "termcolor",
+        "pydub",
     ],
 )
